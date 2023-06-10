@@ -1,0 +1,34 @@
+1. Install Sublime Text (Code Editor)
+2. Install Apache2 (Web Server)
+   $ sudo apt install apache2
+   $ sudo systemctl restart apache2.service   
+3. - Install PHP
+     $ sudo apt install php7.2
+   - Install Extention
+     $ sudo apt install php7.2-cli php7.2-zip php7.2-curl
+4. Install Percona/Mysql (Database)
+   $ sudo apt install curl
+   $ sudo wget https://repo.percona.com/apt/percona-release_latest.$(lsb_release -sc)_all.deb
+   $ sudo dpkg -i percona-release_latest.$(lsb_release -sc)_all.deb
+   $ sudo percona-release setup ps57
+   S sudo apt install percona-server-server-5.7
+   $ sudo systemctl restart mysql.service
+
+   Run MySQL
+   $ mysql (no password)
+   $ mysql -u root -p (with password)
+
+5. Apache2 & MySQL
+   $ sudo systemctl status apache2.service or /etc/init.d/apache2 status
+   $ sudo systemctl restart apache2.service or /etc/init.d/apache2 restart  
+   $ sudo systemctl start apache2.service or /etc/init.d/apache2 start  
+   $ sudo systemctl stop apache2.service or /etc/init.d/apache2 stop  
+
+   $ sudo systemctl status mysql.service or /etc/init.d/mysql status
+   $ sudo systemctl restart mysql.service or /etc/init.d/mysql restart  
+   $ sudo systemctl start mysql.service or /etc/init.d/mysql start  
+   $ sudo systemctl stop mysql.service or /etc/init.d/mysql stop  
+
+6. Run PHP
+   $ mv /home/user/php/index.php /var/www/html/PHP
+   $ localhost/PHP/index.php
