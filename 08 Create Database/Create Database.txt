@@ -1,0 +1,25 @@
+database : db_name
+tabel    : formula
+
+
+id int primary key auto_increment
+name varchar(200)
+formula varchar(10)  ----- use char if you know data size definitely
+gambar varchar(100)
+
+
+METHOD :
+
+0. show databases;
+1. create database <database name>;
+2. use <database name>;
+3. create table <table name> (id, name, formula, picture, etc);
+4. show tables;         <-- Show created table.
+5. describe formula;  <-- Show data in created table
+6. insert into <database name> values (insert data field here)
+7. select * from formula;  --> Show all data in table formula
+   select * from formula where name = "<insert name, formula or any spesific data>";
+8. delete from formula;  <-- Delete All Data
+   delete from formula where id= 3; / delete from formula where name='??';  <--Delete Spesific data
+9. drop tables <nama tables>; <-- Delete Table
+10. drop database <nama database>; <-- Delete Database 
