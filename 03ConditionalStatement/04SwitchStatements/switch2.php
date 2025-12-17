@@ -2,7 +2,7 @@
 
 $Season = "5";
 
-switch ($Flavor) {
+switch ($Season) {
 	case 'Spring':
 		echo "Busy Days";
 		break;
