@@ -5,9 +5,10 @@
 </head>
 <body>
 
-<h1>Hello Hello Hello</h1>
+<h1>Not Everyday Is Good, But There Is Something Good In Everyday</h1>
 
 <a href="login.php">Logout</a>
 
 </body>
+
 </html>
