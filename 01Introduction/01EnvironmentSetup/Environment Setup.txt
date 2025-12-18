@@ -31,4 +31,20 @@
 
 6. Run PHP
    $ mv /home/user/php/index.php /var/www/html/PHP
-   $ localhost/PHP/index.php
+   $ localhost/PHP/index.phRestart:
+
+7. Create a New Root Password.
+   $ sudo mysql_secure_installation
+   
+   When prompted, answer the following questions :
+
+   $ New password: Enter password
+   $ Re-enter new password:
+   $ Repeat password
+   $ Remove anonymous users? [Y/n]: Y
+   $ Disallow root login remotely? [Y/n]: Y
+   $ Remove test database and access to it? [Y/n]: Y
+   $ Reload privilege tables now? [Y/n]: Y
+
+   Login Mysql Use Password
+   $ sudo mysql -u root -p
