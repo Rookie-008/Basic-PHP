@@ -2,7 +2,8 @@
 // Connection to Database
 // mysqli_connect("Host Name", "Username MySQL", "Password", "Database Name");
 $db_connect = mysqli_connect("localhost", "root", "12345", "db_name");
-//$db_connect = mysqli_connect("localhost", "root", "836967826984", "db_name"); 
+//$db_connect = mysqli_connect("localhost", "root", "836967826984", "db_name");
+//$db_connect = mysqli_connect("localhost", "root", "7085787589", "db_name"); 
 
 function query($query) {
 	global $db_connect;
@@ -15,3 +16,4 @@ function query($query) {
 }
 
 ?>
+
