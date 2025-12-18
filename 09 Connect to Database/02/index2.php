@@ -45,7 +45,7 @@ $result = mysqli_query($db_connect, "SELECT * FROM formula");
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Hello Hello</title>
+	<title>Not Everyday Is Good, But There Is Something Good In Everyday</title>
 </head>
 <body>
 
@@ -75,4 +75,5 @@ $result = mysqli_query($db_connect, "SELECT * FROM formula");
 </table>
 
 </body>
+
 </html>
