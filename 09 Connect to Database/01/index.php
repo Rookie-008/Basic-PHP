@@ -8,7 +8,7 @@ $database = query("SELECT * FROM formula"); // <--  formula ==> Table NAME
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Hello Hello</title>
+	<title>Not Everyday Is Good, But There Is Something Good In Everyday</title>
 </head>
 <body>
 
@@ -39,4 +39,5 @@ $database = query("SELECT * FROM formula"); // <--  formula ==> Table NAME
 </table>
 
 </body>
+
 </html>
