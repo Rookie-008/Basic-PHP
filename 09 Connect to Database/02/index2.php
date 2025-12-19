@@ -5,6 +5,7 @@ $db_connect = mysqli_connect("localhost", "root", "12345", "db_name");  // <-- S
 //$db_connect = mysqli_connect("localhost", "root", "836967826984", "db_name");
 //$db_connect = mysqli_connect("localhost", "root", "7085787589", "db_name");
 //$db_connect = mysqli_connect("localhost", "root", "7889778072", "db_name");
+//$db_connect = mysqli_connect("localhost", "root", "7985677272", "db_name");
 
 // Take data from table / query
 // mysqli_query("Connection to Database",); <-- Parameter
@@ -80,6 +81,7 @@ $result = mysqli_query($db_connect, "SELECT * FROM formula");
 </body>
 
 </html>
+
 
 
 
