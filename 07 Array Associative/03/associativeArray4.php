@@ -50,7 +50,7 @@ $flavours = [
 <h1>Array Associative</h1>
 
 <!-- Print Array -->
-echo $flavours[2]["id"][1];
+echo $flavours[2]["cost"][1];
 
 
 </body>
