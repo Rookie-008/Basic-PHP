@@ -29,7 +29,7 @@ $flavours = [["name" => "Strawberry", "cost" => "10"]];
 <h1>Array Associative</h1>
 
 <!-- Print Array -->
-echo $flavours["name"]
+echo $flavours["name"];
 
 
 </body>
