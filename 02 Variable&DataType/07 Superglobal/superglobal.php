@@ -9,12 +9,13 @@
 // 7. $_ENV  <== Environment
 
 // Variable Scope
-// $x = 10; // <== Local Variable
+// Variable GLOBAL
+// $x = 10; // <== GLOBAL Variable
 // echo $x; // <== Show 10 to Output
 
-// Variable Function
+// Variable LOCAL
 // function hello() {
-// 	$x = 20;   // <== $x Variable Local
+// 	$x = 20;   // <== $x LOCAL Variable
 // 	echo $x;
 // } 
 // hello();
