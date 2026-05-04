@@ -9,15 +9,16 @@
 // 7. $_ENV  <== Environment
 
 // Variable Scope
-// $x = 15; // <== Local Variable
+// Variable GLOBAL
+// $x = 15; // <== GLOBAL Variable
 // echo $x; // <== Show 10 to Output
 
-// Variable Function
-// function hello() {
-// 	$x = 25;   // <== $x Variable Local
+// Variable LOCAL
+// function showData() {
+// 	$x = 25;   // <== $x LOCAL variable
 // 	echo $x;
 // } 
-// hello();
+// showData();
 // echo "<br>";
 // echo $x;
 // ?>
@@ -27,11 +28,11 @@
 
 //$x = 15;
 
-//function hello() {
+//function showData() {
 	//global $x;
 	//echo $x;
 //}
-//hello();
+//showData();
 ?>
 
 <?php
