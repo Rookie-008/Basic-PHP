@@ -6,7 +6,8 @@
 // 	["Strawberry", "10"],
 // 	["Banana","20"],
 // 	["Guava","30"],
-// 	["Cherry","40"]
+// 	["Cherry","40"],
+// 	["Watermelon","50"]
 
 // ];
 
