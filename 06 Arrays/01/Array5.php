@@ -9,17 +9,17 @@ $Flavors = [["Strawberry", "10"],["Caramel","20"],["Guava","30"],["Cherry","40"]
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Flavors</title>
+	<title>Flavours</title>
 </head>
 <body>
 
 <h1>Array Numerik</h1>
 
-<?php foreach ($Flavors as $flavor) : ?>
+<?php foreach ($Flavours as $flavour) : ?>
 
 <ul>
-	<li>Name : <?php echo $flavor[0]; ?></li>
-	<li>Cost : <?php echo $flavor[1]; ?></li>
+	<li>Name : <?php echo $flavour[0]; ?></li>
+	<li>Cost : <?php echo $flavour[1]; ?></li>
 </ul>
 
 <?php endforeach; ?>
