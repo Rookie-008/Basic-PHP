@@ -15,53 +15,53 @@
 $flavours = [
 
 	["name" => "Strawberry",
-	 "cost" => "10",
-	 "id"   => [5,10,15],
+	 "id" => "10",
+	 "cost"   => [5,10,15],
 	 "image" => "strawberry.jpg"
 	],
 	["name" => "Banana",
-	 "cost" => "20",
-	 "id"   => [10,15,20],
+	 "id" => "20",
+	 "cost"   => [10,15,20],
 	 "image" => "banana.jpg"
 	],
 	["name" => "Guava",
-	 "cost" => "30",
-	 "id"   => [15,20,25],
+	 "id" => "30",
+	 "cost"   => [15,20,25],
 	 "image" => "guava.png"
 	],
 	["name" => "Cherry",
-	 "cost" => "40",
-	 "id"   => [20,25,30],
+	 "id" => "40",
+	 "cost"   => [20,25,30],
 	 "image" => "cherry.png"
 	],
 	["name" => "Watermelon",
-	 "cost" => "50",
-	 "id"   => [25,30,35],
+	 "id" => "50",
+	 "cost"   => [25,30,35],
 	 "image" => "watermelon.png"
 	],
 	["name" => "Pineapple",
-	 "cost" => "60",
-	 "id"   => [30,35,40],
+	 "id" => "60",
+	 "cost"   => [30,35,40],
 	 "image" => "pineapple.png"
 	],
 	["name" => "Grapes",
-	 "cost" => "70",
-	 "id"   => [35,40,45],
+	 "id" => "70",
+	 "cost"   => [35,40,45],
 	 "image" => "grapes.png"
 	],
 	["name" => "Orange",
-	 "cost" => "80",
-	 "id"   => [40,45,50],
+	 "id" => "80",
+	 "cost"   => [40,45,50],
 	 "image" => "orange.png"
 	],
 	["name" => "Papaya",
-	 "cost" => "90",
-	 "id"   => [45,50,55],
+	 "id" => "90",
+	 "cost"   => [45,50,55],
 	 "image" => "papaya.png"
 	],
 	["name" => "Coconut",
-	 "cost" => "100",
-	 "id"   => [50,55,60],
+	 "id" => "100",
+	 "cost"   => [50,55,60],
 	 "image" => "coconut.png"
 	]
 

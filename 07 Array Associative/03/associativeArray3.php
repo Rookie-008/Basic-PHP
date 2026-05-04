@@ -15,19 +15,19 @@
 $flavours = [
 
 	["name" => "Strawberry",
-	 "cost" => "10"
+	 "id" => "10"
 	],
 	["name" => "Banana",
-	 "cost" => "20"
+	 "id" => "20"
 	],
 	["name" => "Guava",
-	 "cost" => "30"
+	 "id" => "30"
 	],
 	["name" => "Cherry",
-	 "cost" => "40"
+	 "id" => "40"
 	],
 	["name" => "Watermelon",
-	 "cost" => "50"
+	 "id" => "50"
 	]
 
 ];

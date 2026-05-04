@@ -13,7 +13,7 @@
 
 // ARRAY ASSOCIATIVE
 
-$flavours = [["name" => "Strawberry", "cost" => "10"]];
+$flavours = [["name" => "Strawberry", "id" => "10"]];
 
 ?>
 
