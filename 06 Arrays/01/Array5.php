@@ -1,6 +1,6 @@
 <?php  
 
-$Flavors = [["Strawberry", "10"],["Caramel","20"],["Guava","30"],["Cherry","40"]];
+$Flavours = [["Strawberry", "10"],["Caramel","20"],["Guava","30"],["Cherry","40"]];
 
 ?>
 
