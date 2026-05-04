@@ -90,8 +90,8 @@ $flavours = [
 		<img src="img/<?= $flavour["image"];  ?>">
 	</li>
 	<li>Name : <?= $flavour["name"]; ?></li>
-	<li>Cost : <?= $flavour["cost"]; ?></li>
-	<li>Id   : <?= $flavour["id"]; ?></li>
+	<li>Cost : <?= $flavour["id"]; ?></li>
+	<li>Id   : <?= $flavour["cost"]; ?></li>
 </ul>
 
 <?php endforeach; ?>
