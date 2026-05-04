@@ -19,7 +19,7 @@ $Flavours = [["Strawberry", "10"],["Banana","20"],["Guava","30"],["Cherry","40"]
 
 <ul>
 	<li>Name : <?php echo $flavour[0]; ?></li>
-	<li>Cost : <?php echo $flavour[1]; ?></li>
+	<li>Id   : <?php echo $flavour[1]; ?></li>
 </ul>
 
 <?php endforeach; ?>
