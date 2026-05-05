@@ -31,7 +31,7 @@
 
 6. Run PHP
    $ mv /home/user/php/index.php /var/www/html/PHP
-   $ localhost/PHP/index.phRestart:
+   $ localhost/PHP/index.php
 
 7. Create a New Root Password.
    $ sudo mysql_secure_installation
