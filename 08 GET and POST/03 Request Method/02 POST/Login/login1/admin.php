@@ -8,6 +8,7 @@
 <body>
 
 	<h1>WELCOME ADMIN!!</h1>
+	<h2>Not Everyday Is Good, But There Is Something Good In Everyday</h2>
 
 	<a href="login.php">Logout</a>
 	
