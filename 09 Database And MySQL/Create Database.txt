@@ -1,0 +1,40 @@
+database : db_name (dataProduct)
+tabel    : product
+
+METHOD :
+
+0. show databases;
+1. create database <database name>;
+2. use <database name>;
+3. create table <table name> (id, nameProduct, ingredients, picture, etc);
+4. show tables;         <-- Show created table.
+5. describe product;  <-- Show data in created table
+6. insert into <database name> values (insert data field here)
+7. select * from product;  --> Show all data in table product
+   select * from product where name = "<insert name, product or any spesific data>";
+8. delete from product;  <-- Delete All Data
+   delete from product where id= 3; / delete from product where name='??';  <--Delete Spesific data
+9. drop tables <nama tables>; <-- Delete Table
+10. drop database <nama database>; <-- Delete Database
+
+
+
+CREATE DATABASE :
+
+1. create database dataProduct;
+2. use dataProduct;
+3. create table product (
+   -> id int primary key auto_increment,
+   -> nameProduct varchar(100),
+   -> idProduct char(10),
+   -> ingredients varchar(100),  ----- use char if you know data size definitely
+   -> picture varchar(100)
+   );
+4. describe fruits;
+5. insert into fruits values ('1','Strawberry','10','5,10,15','strawberry.jpg');
+6. select * from fruits;
+7. select nameProduct from fruits;
+8. select idProduct from fruits;
+9. select * from fruits where idProduct = '<idProduct>';
+10. update fruits set nameProduct = 'setNewProductName' where idProduct = '<idProduct>';
+11. delete from fruits where idProduct = '<idProduct>';
