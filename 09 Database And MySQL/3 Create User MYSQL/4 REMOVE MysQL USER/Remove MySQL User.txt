@@ -1,0 +1,11 @@
+REMOVE MYSQL USER
+
+$mysql -u root -p
+
+1. REVOKE PRIVILEGES
+   mysql>revoke all privileges on *.* from 'newuser'@'localhost';
+
+2. REMOVE USER
+   mysql>drop user 'newuser'@'localhost';
+   
+   
