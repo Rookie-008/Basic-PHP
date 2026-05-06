@@ -1,0 +1,14 @@
+INSTALL AND UNINSTALL COMPONENT
+
+To Temporarily disable Validate Password Component from MySQL:
+
+$mysql -u root -p
+
+1. UNINSTALL VALIDATE_PASSWORD COMPONENT (DISABLE)
+   mysql>uninstall component "file://component_validate_password"
+   
+2. CREATE USER WITH ANY PASSWORD (Without Three Levels Of Password Validation Policy)
+   mysql>create user 'newuser'@'localhost' identified by '12345';
+   
+3. INSTALL VALIDATE_PASSWORD COMPONENT (ENABLE)
+   mysql>install component "file://component_validate_password";

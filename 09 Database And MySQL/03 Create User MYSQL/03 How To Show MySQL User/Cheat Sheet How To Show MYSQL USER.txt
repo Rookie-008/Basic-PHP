@@ -1,0 +1,25 @@
+HOW TO SHOW MYSQL USER
+
+1. SHOW MYSQL USER
+   mysql>select user from mysql.user;
+   
+2. SHOW MYSQL USER AND HOST
+   mysql>select user, host from mysql.user;
+
+3. SHOW DETAILS FROM MYSQL USER
+   mysql>select * from mysql.user;
+
+4. READ STRUKSTUR TABLE FROM USER
+   mysql>describe mysql.user; 
+
+5. DO NOT SHOW SAME DATA / DO NOT SHOW DATA DUPLIKAT
+   mysql>select distinct user from mysql.user;
+
+6. SHOW STATUS PASSWORD AND ACCOUNT LOCKED
+   mysql>select user, account_locked, password_expired FROM mysql.user;
+ 
+7. SHOW CURRENT USER / SHOW CURRENTLY USER LOGGED IN  
+    mysql>select current_user();
+
+8. SHOW DETAILS CURRENT USER / SHOW DETALIS FROM CURRENTLY USER LOGGED IN  
+    mysql>select user, host, command FROM information_schema.processlist;
