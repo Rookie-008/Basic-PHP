@@ -1,0 +1,26 @@
+<?php
+
+	// Connection to Database
+	// mysqli_connect("Host Name", "Username MySQL", "Password", "Database Name");
+	$db_connect = mysqli_connect("localhost", "userName", "123456", "dataFormula");
+	//$db_connect = mysqli_connect("localhost", "userName", "836967826984", "db_name");
+	//$db_connect = mysqli_connect("localhost", "userName", "7085787589", "db_name");
+	//$db_connect = mysqli_connect("localhost", "userName", "7889778072", "db_name");
+	//$db_connect = mysqli_connect("localhost", "userName", "7985677272", "db_name");
+
+	function query($query) {
+		global $db_connect;
+		
+		$result = mysqli_query($db_connect, $query);
+		$data = [];
+
+		while( $file = mysqli_fetch_assoc($result) ) {
+			$data[] = $file;
+		}
+		return $data;
+	}
+
+?>
+
+
+
