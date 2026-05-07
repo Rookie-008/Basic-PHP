@@ -1,0 +1,29 @@
+LOGIN TO MYSQL USER
+
+$sudo mysql -u root -p
+ Enter Password:
+
+1. CREATE USER
+   mysql>create user 'nameUser'@'localhost' identified by 'abcd1234';
+   mysql>quit
+   
+2. LOGIN TO CREATED USER
+   $sudo mysql -u nameUser -p
+   Enter Password:
+   
+3. SHOW DATABASE 
+   mysql>show databases;
+   
+4. SHOW PERMISSION ACCESS
+   mysql>show grants;
+   
+5. CREATE DATABASE AND MYSQL USER
+   mysql>create database newData;
+   or
+   mysql>create database newdata DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci;
+
+6. GIVE ACCESS FROM DATABASE TO MySQL USER
+   mysql>grant select on newData.fruits to 'nameUser'@'localhost';
+   or
+   mysql>grant all on newData.fruits to 'nameUser'@'localhost';
+
