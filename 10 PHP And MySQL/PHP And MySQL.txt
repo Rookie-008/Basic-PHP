@@ -1,5 +1,5 @@
 PHP + MYSQL :
 
-- Ekstention MySQL         <-- Old Version Extention
-- Ekstention MySQLi        <-- Just MySQL
+- Extention MySQL         <-- Old Version Extention
+- Extention MySQLi        <-- Just MySQL
 - PDO (PHP Data Object)    <-- Can Connected to every databases
