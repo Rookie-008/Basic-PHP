@@ -1,6 +1,6 @@
 <?php 
-	// Connect To DBMS
-	$connection = mysqli_connect("localhost", "newuser", "12345678", "dataFuits");
+	// Connect To Funtions
+	require 'functions.php';
 
 	// Check Button Already Press Or Not
 	if( isset($_POST["submit"]) ) {
