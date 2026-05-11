@@ -28,7 +28,7 @@
 </head>
 <body>
 
-	<h1>Fruits</h1>
+	<h1>Data Fruits</h1>
 
 	<table border="1" cellpadding="10" cellspacing="0">
 		
