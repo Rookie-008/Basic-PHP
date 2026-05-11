@@ -35,7 +35,7 @@
 </head>
 <body>
 
-	<h1>Add Fruits</h1>
+	<h1>Add Data Fruits</h1>
 
 	<form action="" method="post">
 		
