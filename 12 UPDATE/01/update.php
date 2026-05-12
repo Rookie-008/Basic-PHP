@@ -58,7 +58,7 @@
 
 			<li>
 				<label for="idProduct">ID Product : </label>
-				<input type="text" name="idProduct" id="idProduct" required value="<?php echo $file["id"];  ?>">
+				<input type="text" name="idProduct" id="idProduct" required value="<?php echo $file["idProduct"];  ?>">
 			</li>
 
 			<li>
