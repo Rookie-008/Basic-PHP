@@ -1,0 +1,8 @@
+Cookie adalah informasi yang disimpan di Browser / Client
+Fungdi Cookie
+- Mengenali User
+- Shopping Chart
+- Personalisasi
+
+$_COOKIE
+setcookie()
