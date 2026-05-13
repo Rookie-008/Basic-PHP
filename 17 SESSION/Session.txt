@@ -1,0 +1,6 @@
+SESSION
+
+- Session Adalah Mekanisme penyimpanan informasi ke dalam variabel agar bisa digunakan di lebih dari satu halaman.
+- Informasi Session Tersimpan di dalam Server
+- $_SESSION
+- session_start()
