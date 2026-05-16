@@ -1,4 +1,4 @@
-// Take Element
+// Get Element
 var keyword	= document.getElementById('keyword');
 var searchButton = document.getElementById('search-button');
 var container = document.getElementById('container');
