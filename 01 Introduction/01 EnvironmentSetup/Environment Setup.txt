@@ -48,3 +48,6 @@
 
    Login Mysql Use Password
    $ sudo mysql -u root -p
+
+8. Install phpmyadmin
+   $ sudo apt install phpmyadmin
