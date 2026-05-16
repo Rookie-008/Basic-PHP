@@ -1,0 +1,9 @@
+1. Simulation Synchronus Connection
+
+   CLIENT WEB BROWSER_1    --Send Request-->    SERVER    --Server Response-->    CLIENT WEB BROWSER_2
+                              
+
+2. AJAX --> Asynchronus Javascript And XML
+   Object :
+   - XMLHttpRequest()
+
