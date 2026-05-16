@@ -47,7 +47,9 @@
 		<button type="submit" name="search" id="search-button">Search!</button>
 
 	</form>
-
+	
+	<br><br>
+	<div id="container>
 	<table border="1" cellpadding="10" cellspacing="0">
 		
 		<tr>
@@ -79,6 +81,7 @@
 		<?php endforeach; ?>
 
 	</table>
+	</div>
 
 <script src="JS/script.js"></script>
 
