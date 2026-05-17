@@ -51,3 +51,6 @@
 
 8. Install phpmyadmin
    $ sudo apt install phpmyadmin
+
+9. Install Composer
+   $ sudo apt install composer
