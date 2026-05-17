@@ -1,0 +1,19 @@
+PDF REPORT
+- Laporan
+- Kuitansi/ invoice /faktur
+- form isian
+
+Membuat PDF
+- Fitur Bawaan Browser
+- Library PHP
+  - FPDF
+  - mPDF
+  - DOMPDF
+  
+Environment Setup PDF Reporting
+1. Install Composer
+   $ sudo apt install composer
+   
+2. Install mPDF
+   $ composer require mpdf/mpdf
+

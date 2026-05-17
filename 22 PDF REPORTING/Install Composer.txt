@@ -1,0 +1,18 @@
+INSTALL COMPOSER
+
+$ sudo apt install composer
+
+UPGRADE COMPOSER NEW VERSION
+$ sudo mkdir composer
+$ php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
+$ php composer-setup
+
+IF self-update not define
+$ cd composer
+$ sudo cp composer.phar /usr/local/bin/composer
+$ cd /usr/local/bin
+$ sudo composer self-update --2.2
+
+INSTALL mPDF
+$ cd folder
+$ composer require mpdf/mpdf
